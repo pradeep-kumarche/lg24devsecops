@@ -28,7 +28,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           args: >
-            -Dsonar.organization=LGSI 
+            -Dsonar.organization=lgsi 
             -Dsonar.projectKey=lgsi_myproject
             -Dsonar.sources=owm/
             -Dsonar.tests=tests/
