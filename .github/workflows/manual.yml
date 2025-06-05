@@ -28,8 +28,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           args: >
-            -Dsonar.organization=pradeep-kumarche 
-            -Dsonar.projectKey=pradeep-kumarche_lg24devsecops 
+            -Dsonar.organization=LGSI 
+            -Dsonar.projectKey=lgsi_myproject
             -Dsonar.sources=owm/
             -Dsonar.tests=tests/
             -Dsonar.verbose=true
